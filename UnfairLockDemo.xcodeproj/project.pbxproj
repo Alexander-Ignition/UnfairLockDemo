@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B00DEF02CD93F9E00C160C1 /* Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B00DEEF2CD93F9D00C160C1 /* Cancellation.swift */; };
+		2B39483B2CC588E100F639E2 /* UnfairLockDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39483A2CC588E100F639E2 /* UnfairLockDemoApp.swift */; };
+		2B39483D2CC588E100F639E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39483C2CC588E100F639E2 /* ContentView.swift */; };
+		2B39483F2CC588E200F639E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B39483E2CC588E200F639E2 /* Assets.xcassets */; };
+		2B3948422CC588E200F639E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3948412CC588E200F639E2 /* Preview Assets.xcassets */; };
+		2B3948492CC5890400F639E2 /* UnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3948482CC5890400F639E2 /* UnfairLock.swift */; };
+		2B39484B2CC5891800F639E2 /* WBAllocatedUnfairLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39484A2CC5891800F639E2 /* WBAllocatedUnfairLock.swift */; };
+		2B39484D2CC5892A00F639E2 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39484C2CC5892A00F639E2 /* URLSession.swift */; };
+		2B39484F2CC589F200F639E2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39484E2CC589F200F639E2 /* DataManager.swift */; };
+		2B3948572CC9431500F639E2 /* UnfairLockDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3948562CC9431500F639E2 /* UnfairLockDemoTests.swift */; };
+		2B39485E2CCA7CB200F639E2 /* DataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39485D2CCA7CB200F639E2 /* DataManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B3948582CC9431500F639E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B39482F2CC588E100F639E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3948362CC588E100F639E2;
+			remoteInfo = UnfairLockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B00DEEF2CD93F9D00C160C1 /* Cancellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellation.swift; sourceTree = "<group>"; };
+		2B00DEF12CD958B200C160C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2B3948372CC588E100F639E2 /* UnfairLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnfairLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B39483A2CC588E100F639E2 /* UnfairLockDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfairLockDemoApp.swift; sourceTree = "<group>"; };
+		2B39483C2CC588E100F639E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B39483E2CC588E200F639E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B3948412CC588E200F639E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B3948482CC5890400F639E2 /* UnfairLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfairLock.swift; sourceTree = "<group>"; };
+		2B39484A2CC5891800F639E2 /* WBAllocatedUnfairLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAllocatedUnfairLock.swift; sourceTree = "<group>"; };
+		2B39484C2CC5892A00F639E2 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		2B39484E2CC589F200F639E2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2B3948542CC9431500F639E2 /* UnfairLockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnfairLockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3948562CC9431500F639E2 /* UnfairLockDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfairLockDemoTests.swift; sourceTree = "<group>"; };
+		2B39485D2CCA7CB200F639E2 /* DataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3948342CC588E100F639E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3948512CC9431500F639E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B39482E2CC588E100F639E2 = {
+			isa = PBXGroup;
+			children = (
+				2B00DEF12CD958B200C160C1 /* README.md */,
+				2B3948392CC588E100F639E2 /* UnfairLockDemo */,
+				2B3948552CC9431500F639E2 /* UnfairLockDemoTests */,
+				2B3948382CC588E100F639E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3948382CC588E100F639E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3948372CC588E100F639E2 /* UnfairLockDemo.app */,
+				2B3948542CC9431500F639E2 /* UnfairLockDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3948392CC588E100F639E2 /* UnfairLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B39483A2CC588E100F639E2 /* UnfairLockDemoApp.swift */,
+				2B39483C2CC588E100F639E2 /* ContentView.swift */,
+				2B39484E2CC589F200F639E2 /* DataManager.swift */,
+				2B3948482CC5890400F639E2 /* UnfairLock.swift */,
+				2B39484A2CC5891800F639E2 /* WBAllocatedUnfairLock.swift */,
+				2B39484C2CC5892A00F639E2 /* URLSession.swift */,
+				2B00DEEF2CD93F9D00C160C1 /* Cancellation.swift */,
+				2B39483E2CC588E200F639E2 /* Assets.xcassets */,
+				2B3948402CC588E200F639E2 /* Preview Content */,
+			);
+			path = UnfairLockDemo;
+			sourceTree = "<group>";
+		};
+		2B3948402CC588E200F639E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B3948412CC588E200F639E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B3948552CC9431500F639E2 /* UnfairLockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B3948562CC9431500F639E2 /* UnfairLockDemoTests.swift */,
+				2B39485D2CCA7CB200F639E2 /* DataManagerTests.swift */,
+			);
+			path = UnfairLockDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3948362CC588E100F639E2 /* UnfairLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3948452CC588E200F639E2 /* Build configuration list for PBXNativeTarget "UnfairLockDemo" */;
+			buildPhases = (
+				2B3948332CC588E100F639E2 /* Sources */,
+				2B3948342CC588E100F639E2 /* Frameworks */,
+				2B3948352CC588E100F639E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnfairLockDemo;
+			productName = UnfairLockDemo;
+			productReference = 2B3948372CC588E100F639E2 /* UnfairLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B3948532CC9431500F639E2 /* UnfairLockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B39485C2CC9431500F639E2 /* Build configuration list for PBXNativeTarget "UnfairLockDemoTests" */;
+			buildPhases = (
+				2B3948502CC9431500F639E2 /* Sources */,
+				2B3948512CC9431500F639E2 /* Frameworks */,
+				2B3948522CC9431500F639E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3948592CC9431500F639E2 /* PBXTargetDependency */,
+			);
+			name = UnfairLockDemoTests;
+			productName = UnfairLockDemoTests;
+			productReference = 2B3948542CC9431500F639E2 /* UnfairLockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B39482F2CC588E100F639E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2B3948362CC588E100F639E2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2B3948532CC9431500F639E2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2B3948362CC588E100F639E2;
+					};
+				};
+			};
+			buildConfigurationList = 2B3948322CC588E100F639E2 /* Build configuration list for PBXProject "UnfairLockDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B39482E2CC588E100F639E2;
+			productRefGroup = 2B3948382CC588E100F639E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3948362CC588E100F639E2 /* UnfairLockDemo */,
+				2B3948532CC9431500F639E2 /* UnfairLockDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3948352CC588E100F639E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3948422CC588E200F639E2 /* Preview Assets.xcassets in Resources */,
+				2B39483F2CC588E200F639E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3948522CC9431500F639E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3948332CC588E100F639E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3948492CC5890400F639E2 /* UnfairLock.swift in Sources */,
+				2B39484F2CC589F200F639E2 /* DataManager.swift in Sources */,
+				2B39483D2CC588E100F639E2 /* ContentView.swift in Sources */,
+				2B39484D2CC5892A00F639E2 /* URLSession.swift in Sources */,
+				2B39484B2CC5891800F639E2 /* WBAllocatedUnfairLock.swift in Sources */,
+				2B39483B2CC588E100F639E2 /* UnfairLockDemoApp.swift in Sources */,
+				2B00DEF02CD93F9E00C160C1 /* Cancellation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3948502CC9431500F639E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3948572CC9431500F639E2 /* UnfairLockDemoTests.swift in Sources */,
+				2B39485E2CCA7CB200F639E2 /* DataManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B3948592CC9431500F639E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3948362CC588E100F639E2 /* UnfairLockDemo */;
+			targetProxy = 2B3948582CC9431500F639E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B3948432CC588E200F639E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B3948442CC588E200F639E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3948462CC588E200F639E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnfairLockDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QM3357L793;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-ignition.UnfairLockDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3948472CC588E200F639E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnfairLockDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QM3357L793;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-ignition.UnfairLockDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B39485A2CC9431500F639E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM3357L793;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-ignition.UnfairLockDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnfairLockDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnfairLockDemo";
+			};
+			name = Debug;
+		};
+		2B39485B2CC9431500F639E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM3357L793;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex-ignition.UnfairLockDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnfairLockDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnfairLockDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3948322CC588E100F639E2 /* Build configuration list for PBXProject "UnfairLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3948432CC588E200F639E2 /* Debug */,
+				2B3948442CC588E200F639E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3948452CC588E200F639E2 /* Build configuration list for PBXNativeTarget "UnfairLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3948462CC588E200F639E2 /* Debug */,
+				2B3948472CC588E200F639E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B39485C2CC9431500F639E2 /* Build configuration list for PBXNativeTarget "UnfairLockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B39485A2CC9431500F639E2 /* Debug */,
+				2B39485B2CC9431500F639E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B39482F2CC588E100F639E2 /* Project object */;
+}
